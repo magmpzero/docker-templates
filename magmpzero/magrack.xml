@@ -12,7 +12,7 @@
   <Overview>
   MagRack is a lightweight java based application to make reading PDF files (magazines) more convienent.  This application does not download magazines.  It is expected the user aleady has automation setup for magazine downloading.
   </Overview>
-  <Support>http://lime-technology.com/forum/</Support>
+  <Support>https://lime-technology.com/forum/index.php?topic=47009.0</Support>
   <Registry>https://registry.hub.docker.com/u/magmpzero/magrack/</Registry>
   <GitHub>https://github.com/magmpzero/docker-templates</GitHub>
   <Repository>magmpzero/magrack</Repository>
