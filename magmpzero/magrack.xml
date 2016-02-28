@@ -41,7 +41,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:4567]/</WebUI>
+  <WebUI>http://[IP]:[PORT:4567]/mags</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/magmpzero/docker-templates/master/icon.png</Icon>
   <Beta>False</Beta>
