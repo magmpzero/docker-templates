@@ -49,6 +49,8 @@
   <Changes>
     [center][font size=5]MagRack Change Log[/font][/center]
 
+    [font size=4]2016.03.04[/font]
+    - Bug fixes to handle encrypted PDF
     [font size=4]2016.02.28[/font]
     - Initial release
 
