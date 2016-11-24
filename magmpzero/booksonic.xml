@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>Booksonic</Name>
+  <Description>
+    Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic.[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/audiobooks[/b] This is the location where your audiobooks are stored.[br][br]
+    [b]/var/config[/b] Where to store your config [br][br]
+    [br][br]
+    [span style='color: #E80000;']4567[/span] is the WebUI port[br]
+    To access BookSonic, open the WebUI.[br][br]
+  </Description>
+  <Overview>
+  Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic.
+  </Overview>
+  <Support>https://lime-technology.com/forum/index.php?topic=47009.0</Support>
+  <Registry>https://registry.hub.docker.com/u/ironicbadger/booksonic/</Registry>
+  <GitHub>https://github.com/magmpzero/docker-templates</GitHub>
+  <Repository>magmpzero/magrack</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>BRANCH</Name>
+      <Value>master</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/audiobooks</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/mags</WebUI>
+  <Banner></Banner>
+  <Icon>http://booksonic.org/assets/img/booksonic.png</Icon>
+  <Beta>False</Beta>
+  <Category>MediaServer:Other</Category>
+  <Changes>
+    [center][font size=5]Booksonic Change Log[/font][/center]
+
+    [font size=4]2016.11.23[/font]
+    - Initial release
+
+  </Changes>
+  <Date>2016-11-23</Date>
+</Containers>
