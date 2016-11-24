@@ -33,7 +33,7 @@
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/audiobooks</ContainerDir>
+      <ContainerDir>/var/audiobooks</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
