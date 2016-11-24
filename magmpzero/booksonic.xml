@@ -7,7 +7,6 @@
     [b]/audiobooks[/b] This is the location where your audiobooks are stored.[br][br]
     [b]/var/config[/b] Where to store your config [br][br]
     [br][br]
-    [span style='color: #E80000;']4567[/span] is the WebUI port[br]
     To access BookSonic, open the WebUI.[br][br]
   </Description>
   <Overview>
@@ -30,10 +29,6 @@
     </Publish>
   </Networking>
   <Environment>
-    <Variable>
-      <Name>BRANCH</Name>
-      <Value>master</Value>
-    </Variable>
   </Environment>    
   <Data>
     <Volume>
@@ -41,6 +36,12 @@
       <ContainerDir>/audiobooks</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/var/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+   
   </Data>
   <WebUI>http://[IP]:[PORT:8080]/mags</WebUI>
   <Banner></Banner>
