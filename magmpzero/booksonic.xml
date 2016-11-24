@@ -43,7 +43,7 @@
     </Volume>
    
   </Data>
-  <WebUI>http://[IP]:[PORT:8080]/mags</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <Banner></Banner>
   <Icon>http://booksonic.org/assets/img/booksonic.png</Icon>
   <Beta>False</Beta>
